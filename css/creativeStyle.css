@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a.BotonLink, a.BotonLink2, a.BotonLink3{
+  font-size: 16px;
+  border-radius: 30px;
+  background-color: #f5914e;
+  margin: auto;
+}
+a:hover{
+  opacity: 0.7;
+}
+a.BotonLink{
+  padding: 0.9%;
+}
+a.BotonLink2{
+  padding: 1.7%;
+}
+a.BotonLink3{
+  padding: 2.7%;
+}
+
+div.Header{
+  height: 800px; margin: auto;
+  background-image: url(../img/HeaderImg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+div.InfoHeader{
+  width: 100%; margin: auto;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+.InfoHeader h1{
+  font-size: 90px;
+}
+.InfoHeader h3{
+  font-size: 40px;
+}
+
+div.Middle{
+  padding-top: 5%; padding-bottom: 5%;
+  width: 80%; margin: auto;
+}
+.Middle h2, .Info h2{
+  color: #f5914e;
+  font-size: 50px;
+}
+.Middle p, .Info p{
+  font-size: 25px;
+}
+div.TextImg1{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 3%;
+}
+div.TextImg2{
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 3%;
+}
+.TextMiddle{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.TMiddle1{
+  padding-right: 4%;
+}
+.TMiddle2{
+  padding-left: 4%;
+}
+
+div.Info{
+  height: 800px; margin: 0 auto;
+  background-image: url(../img/InfoImg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div.TextInfo{
+  height: 700px;  width: 50%;
+  padding: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+div.Footer{
+  background-color: #f5914e;
+  color: white;
+}
+.Footer h4, .Footer a, .Footer p{
+  font-size: 20px;
+}
+div.Listas{
+  width: 80%; margin: auto;
+  height: 250px; margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+div.Sublista{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+div.Base{
+  width: 80%; margin: auto;
+  height: 60px; margin: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  padding-top: 0.7%;
+}
